@@ -79,6 +79,23 @@ b, strong {
     @include body-font-bold;   
 }
 
+blockquote {
+    background-color: $background-color;
+    padding: 16px;
+    margin: 0;
+}
+
+blockquote p:first-of-type {
+    margin-top: 0;
+}
+
+blockquote cite {
+    display: block;
+    @include body-font-bold;
+    text-align: right;
+    
+}
+
 ul {
     margin: 0 0 0 22px;
     // margin: top right bottom left
